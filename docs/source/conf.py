@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -20,8 +22,8 @@ master_doc = 'index'
 # -- Project information -----------------------------------------------------
 
 project = 'jupyterhub-docs'
-copyright = '2021, Jose Munoz'
-author = 'Jose Munoz'
+copyright = '2021, Cardiff University and The University of Edinburgh'
+author = 'Jose Javier Muñoz-Criollo, Malcolm Illingworth, Gareth Francis, Duncan Macleod'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
