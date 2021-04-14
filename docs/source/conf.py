@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -20,8 +22,8 @@ master_doc = 'index'
 # -- Project information -----------------------------------------------------
 
 project = 'jupyterhub-docs'
-copyright = '2021, Jose Munoz'
-author = 'Jose Munoz'
+copyright = '2021, Cardiff University and The University of Edinburgh'
+author = 'Jose Javier Muñoz-Criollo, Malcolm Illingworth, Gareth Francis, Duncan Macleod'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -41,7 +43,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_templates']
 
 
 # -- Options for HTML output -------------------------------------------------

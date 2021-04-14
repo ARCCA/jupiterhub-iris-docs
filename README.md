@@ -9,3 +9,4 @@ digital research infrastructure platform.
 
 [![Build](https://github.com/ARCCA/jupyterhub-iris-docs/actions/workflows/build.yml/badge.svg)](https://github.com/ARCCA/jupyterhub-iris-docs/actions/workflows/build.yml)
 [![Documentation Status](https://readthedocs.org/projects/jupyterhub-iris/badge/?version=latest)](https://jupyterhub-iris.readthedocs.io/en/latest/?badge=latest)
+[![GitHub license](https://img.shields.io/github/license/ARCCA/jupyterhub-iris-docs.svg)](https://github.com/ARCCA/jupyterhub-iris-docs/blob/master/LICENSE)
