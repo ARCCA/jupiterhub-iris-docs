@@ -6,6 +6,8 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import datetime
+
 master_doc = 'index'
 
 # -- Path setup --------------------------------------------------------------
@@ -26,7 +28,8 @@ copyright = '2021, Cardiff University and The University of Edinburgh'
 author = 'Jose Javier Muñoz-Criollo, Malcolm Illingworth, Gareth Francis, Duncan Macleod'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+calver_scheme = "%Y.%m.%d"
+release = datetime.datetime.utcnow().strftime(calver_scheme)
 
 
 # -- General configuration ---------------------------------------------------
